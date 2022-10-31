@@ -29,3 +29,61 @@
   margin-right: 0;
   margin-top: 80px;
 }
+
+.logo {
+  width: 228px;
+  height: 32px;
+  position: absolute;
+  top: 30px;
+  left: 64px;
+  background-image: url(../images/logo_place_header.svg);
+}
+
+.title {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 64px;
+}
+
+.subtitle {
+  width: 388px;
+  position: absolute;
+  left: 64px;
+  bottom: 30px;
+}
+
+.link {
+  color: #2f80ed;
+}
+
+.link::after {
+  content: "→";
+}
+
+.square-pic {
+  position: absolute;
+  top: 64px;
+  right: 0;
+  background-color: #2f80ed;
+  width: 568px;
+  height: 568px;
+}
+
+.main-illustration {
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background-image: url(../images/header-image.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
+  width: 765px;
+  height: 608px;
+  z-index: 1;
+}
+
