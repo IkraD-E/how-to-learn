@@ -26,13 +26,13 @@ h1, h2, h3, p {
   /* выше установили ограничения для секции */
 }
 
-.header__logo {
+.logo {
   width: 228px;
   height: 32px;
   
 }
 
-.header__logo_position {
+.logo_position {
   position: absolute;
   top: 30px;
   left: 64px;
@@ -255,4 +255,75 @@ h1, h2, h3, p {
   width: 877px;
   height: 877px;
   z-index: -1;
+}
+
+.footer {
+  position: relative;
+  background-color: black;
+  color: #fff;
+  flex-basis: 711px;
+  min-height: 350px;
+  padding: 60px 0 40px;
+  margin: 0 auto;
+}
+
+.footer__columns {
+  display: flex;
+  justify-content: space-around;
+}
+
+.logo_place_footer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: url(../images/logo_place_footer.svg);
+}
+
+.footer__column {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.footer__column-heading {
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.footer__column-links {
+  margin: 20px 0 16px;
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.footer__column-link {
+  margin-bottom: 10px;
+  color: #fff;
+  text-decoration: none;
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.footer__column-link-img {
+  margin-right: auto;
+  width: 16px;
+  height: 16px;
+}
+
+.footer__column_content_copyright {
+  position: relative;
+  width: 50%;
+  min-height: 350px;
+}
+
+.footer__author {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: normal;
 }
