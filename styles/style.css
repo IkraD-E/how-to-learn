@@ -192,7 +192,7 @@ h1, h2, h3, p {
 .feynman {
   position: relative;
   width: 100%;
-  height: 890px; 
+  height: 890px;
   background-image: url(../images/feynman.png);
   background-repeat: no-repeat;
   background-position: bottom left;
@@ -221,7 +221,7 @@ h1, h2, h3, p {
 .feynman__link {
   position: absolute;
   top: 50%;
-  right: 48px;  
+  right: 48px;
   line-height: 51px;
   font-size: 36px;
   font-weight: normal;
