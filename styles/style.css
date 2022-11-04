@@ -262,7 +262,8 @@
 }
 
 .table__cell_theme_dark {
-  width: 200px;
+  max-width: 200px;
+  width: 100%;
   color: white;
   margin-right: 0;
   margin-top: 80px;
@@ -307,7 +308,8 @@
 .footer__columns {
   display: flex;
   justify-content: space-between;
-  width: 90%;
+  max-width: 90%;
+  width: 100%;
   margin: 0 auto;
 }
 
