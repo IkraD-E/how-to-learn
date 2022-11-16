@@ -5,8 +5,13 @@
     line-height: 42px;
     font-size: 30px;
     font-weight: normal;
+    transition: opacity .5s;
 }
 
 .khan__buy-link::after {
     content: "→";
+}
+
+.khan__buy-link:hover {
+    opacity: .6;
 }
