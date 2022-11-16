@@ -8,6 +8,6 @@
     }
 }
 
-.image_rotation {
+.rotation {
   animation: rotation 10s linear infinite;
 }

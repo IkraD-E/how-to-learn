@@ -1,8 +1,8 @@
 .header__link {
-    color: #2f80ed;
-    text-decoration: none;
-  }
+  color: var(--link-figure-color);
+  text-decoration: none;
+}
 
-  .header__link::after {
-    content: "→";
-  }
+.header__link::after {
+  content: "→";
+}
