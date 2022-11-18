@@ -5,8 +5,10 @@
     width: 100%;
     margin-right: 100px;
     text-align: center;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.cards__item:nth-of-type(3) {
+.cards__item:nth-of-type(3n + 3) {
     margin: 0;
 }

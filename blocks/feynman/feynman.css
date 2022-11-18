@@ -2,7 +2,6 @@
     position: relative;
     width: 100%;
     min-height: 890px;
-    height: 100%;
     background-image: url(../../images/feynman.png);
     background-repeat: no-repeat;
     background-position: bottom left;
@@ -10,4 +9,5 @@
     text-align: center;
     background-color: var(--second-background-color);
     padding-top: 100px;
+    box-sizing: border-box;
 }

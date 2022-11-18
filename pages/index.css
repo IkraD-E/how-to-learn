@@ -1,9 +1,9 @@
-@import url(../blocks/root/normalize.css);
+@import url(../blocks/vendor/normalize.css);
 
-@import url(../blocks/root/root.css);
+@import url(../blocks/vendor/variables.css);
 
 /* Header */
-@import url(../blocks/animation/rotation.css);
+@import url(../blocks/rotation/rotation.css);
 
 @import url(../blocks/page/page.css);
 
@@ -11,7 +11,7 @@
 
 @import url(../blocks/logo/logo.css);
 
-@import url(../blocks/logo/_place_header/logo_place_header.css);
+@import url(../blocks/logo/_place/_header/logo_place_header.css);
 
 @import url(../blocks/header/__title/header__title.css);
 
@@ -98,17 +98,17 @@
 
 @import url(../blocks/kaufman/kaufman.css);
 
-@import url(../blocks/section-title/_theme_dark/section-title_theme_dark.css);
+@import url(../blocks/section-title/_theme/_dark/section-title_theme_dark.css);
 
-@import url(../blocks/section-subtitle/_theme_dark/section-subtitle_theme_dark.css);
+@import url(../blocks/section-subtitle/_theme/_dark/section-subtitle_theme_dark.css);
 
-@import url(../blocks/table/__cell/_theme_dark/table__cell_theme_dark.css);
+@import url(../blocks/table/__cell/_theme/_dark/table__cell_theme_dark.css);
 
-@import url(../blocks/table/__heading/_theme_dark/table__heading_theme_dark.css);
+@import url(../blocks/table/__heading/_theme/_dark/table__heading_theme_dark.css);
 
-@import url(../blocks/table/__text/_theme_dark/table__text_theme_dark.css);
+@import url(../blocks/table/__text/_theme/_dark/table__text_theme_dark.css);
 
-@import url(../blocks/kaufman/kaufman__triangle/kaufman__triangle.css);
+@import url(../blocks/kaufman/__triangle/kaufman__triangle.css);
 
 /* khan */
 
@@ -130,8 +130,6 @@
 
 @import url(../blocks/khan/__quote-book-pic/khan__quote-book-pic.css);
 
-@import url(../blocks/khan/__quote-book-link/khan__quote-book-link.css);
-
 @import url(../blocks/khan/__quote-buy-link/khan__quote-buy-link.css);
 
 /* resources*/
@@ -148,13 +146,13 @@
 
 @import url(../blocks/footer/footer.css);
 
-@import url(../blocks/logo/_place_footer/logo_place_footer.css);
+@import url(../blocks/logo/_place/_footer/logo_place_footer.css);
 
 @import url(../blocks/footer/__columns/footer__columns.css);
 
 @import url(../blocks/footer/__column/footer__column.css);
 
-@import url(../blocks/footer/__column/_content_copyright/footer__column_content_copyright.css);
+@import url(../blocks/footer/__column/_content/_copyright/footer__column_content_copyright.css);
 
 @import url(../blocks/footer/__column-heading/footer__column-heading.css);
 
@@ -162,7 +160,7 @@
 
 @import url(../blocks/footer/__column-link/footer__column-link.css);
 
-@import url(../blocks/footer/__column-social-icon/footer__column-social-icon.css);
+@import url(../blocks/footer/__social-icon/footer__social-icon.css);
 
 @import url(../blocks/footer/__author/footer__author.css);
 
