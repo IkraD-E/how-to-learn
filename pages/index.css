@@ -1,6 +1,6 @@
-@import url(../blocks/vendor/normalize.css);
+@import url(../vendor/normalize.css);
 
-@import url(../blocks/vendor/variables.css);
+@import url(../vendor/variables.css);
 
 /* Header */
 @import url(../blocks/rotation/rotation.css);
@@ -11,7 +11,7 @@
 
 @import url(../blocks/logo/logo.css);
 
-@import url(../blocks/logo/_place/_header/logo_place_header.css);
+@import url(../blocks/logo/_place/logo_place_header.css);
 
 @import url(../blocks/header/__title/header__title.css);
 
@@ -98,15 +98,15 @@
 
 @import url(../blocks/kaufman/kaufman.css);
 
-@import url(../blocks/section-title/_theme/_dark/section-title_theme_dark.css);
+@import url(../blocks/section-title/_theme/section-title_theme_dark.css);
 
-@import url(../blocks/section-subtitle/_theme/_dark/section-subtitle_theme_dark.css);
+@import url(../blocks/section-subtitle/_theme/section-subtitle_theme_dark.css);
 
-@import url(../blocks/table/__cell/_theme/_dark/table__cell_theme_dark.css);
+@import url(../blocks/table/__cell/_theme/table__cell_theme_dark.css);
 
-@import url(../blocks/table/__heading/_theme/_dark/table__heading_theme_dark.css);
+@import url(../blocks/table/__heading/_theme/table__heading_theme_dark.css);
 
-@import url(../blocks/table/__text/_theme/_dark/table__text_theme_dark.css);
+@import url(../blocks/table/__text/_theme/table__text_theme_dark.css);
 
 @import url(../blocks/kaufman/__triangle/kaufman__triangle.css);
 
@@ -124,13 +124,13 @@
 
 @import url(../blocks/khan/__quote-author/khan__quote-author.css);
 
-@import url(../blocks/khan/__quote-author-subtitle/khan__quote-author-subtitle.css);
+@import url(../blocks/khan/__quote-author-subline/khan__quote-author-subline.css);
 
-@import url(../blocks/khan/__quote-book-container/khan__quote-book-container.css);
+@import url(../blocks/khan/__book-container/khan__book-container.css);
 
-@import url(../blocks/khan/__quote-book-pic/khan__quote-book-pic.css);
+@import url(../blocks/khan/__book-pic/khan__book-pic.css);
 
-@import url(../blocks/khan/__quote-buy-link/khan__quote-buy-link.css);
+@import url(../blocks/khan/__buy-link/khan__buy-link.css);
 
 /* resources*/
 
@@ -146,13 +146,13 @@
 
 @import url(../blocks/footer/footer.css);
 
-@import url(../blocks/logo/_place/_footer/logo_place_footer.css);
+@import url(../blocks/logo/_place/logo_place_footer.css);
 
 @import url(../blocks/footer/__columns/footer__columns.css);
 
 @import url(../blocks/footer/__column/footer__column.css);
 
-@import url(../blocks/footer/__column/_content/_copyright/footer__column_content_copyright.css);
+@import url(../blocks/footer/__column/_content/footer__column_content_copyright.css);
 
 @import url(../blocks/footer/__column-heading/footer__column-heading.css);
 
